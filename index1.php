@@ -284,7 +284,7 @@ include_once "config/Database.php";
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                   <li data-filter="*" class="filter-active">Voir tous</li>
-                  <li data-filter=".filter-app">Travaux exécutés</li>
+                  <li data-filter=".filter-app">Travaux exécutés pour le null</li>
                   <li data-filter=".filter-card">Travaux de conception</li>
                   <li data-filter=".filter-web">Travaux en cours</li>
                 </ul>
