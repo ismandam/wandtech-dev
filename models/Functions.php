@@ -374,6 +374,13 @@ class Functions
             $jsf= json_encode($jsf0);
             file_put_contents('../json/folio.json', $jsf);
 
+            if($response['categorie']=='folio'){
+                $jsf1[]=$response;
+                $conception= json_encode($jsf1);
+                file_put_contents('../json/conception.json', $conception);
+
+            }else
+
             if($response['categorie']=='conception'){
                 $jsf1[]=$response;
                 $conception= json_encode($jsf1);
